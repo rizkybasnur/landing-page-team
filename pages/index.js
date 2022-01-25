@@ -68,7 +68,7 @@ export default function Home() {
 
         <div class="grid grid-rows-5 grid-cols-12 grid-flow-col gap-4 p-36">
           <div class="row-span-full row-start-1 col-start-2 col-end-7  ">
-            <Image src="/simpletask-image.png" width={472} height={544} />
+            <Image src="/simpletask-image.png" width={1030} height={644} />
           </div>
           <div class="col-span-4 col-start-8 row-start-2">
             <span className=" font-bold text-5xl">Your hub for teamwork </span>
@@ -93,9 +93,10 @@ export default function Home() {
           <div class=" col-span-4 col-start-3 row-start-3">
             <span>
               Project discussions, important documents, free food announcements:
-              they all live tidily together in Team. With your team and
-              information in one easily searchable place, collaborating online
-              is as easy as collaborating in person.
+              they all live tidily import Footer from './../components/Footer';
+              together in Team. With your team and information in one easily
+              searchable place, collaborating online is as easy as collaborating
+              in person.
             </span>
           </div>
           <div class=" col-span-2 col-start-3 row-start-4">
