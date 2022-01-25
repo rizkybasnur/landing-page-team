@@ -38,7 +38,7 @@ export default function Home() {
         </div>
 
         <div
-          class="bg-local "
+          className="bg-local "
           // style={{background-image: url(/hero-image.png)}}
         />
       </header>
@@ -46,11 +46,11 @@ export default function Home() {
       {/* <div className=" z-10  text-lg text-black px-36">tes</div> */}
 
       <main>
-        <div class="grid grid-rows-5 grid-cols-12 grid-flow-col gap-4 pt-36 ">
-          <div class="col-span-4 col-start-3 row-start-2">
+        <div className="grid grid-rows-5 grid-cols-12 grid-flow-col gap-4 pt-36 ">
+          <div className="col-span-4 col-start-3 row-start-2">
             <span className=" font-bold text-5xl">Your hub for teamwork </span>
           </div>
-          <div class=" col-span-4 col-start-3 row-start-3">
+          <div className=" col-span-4 col-start-3 row-start-3">
             <span>
               Project discussions, important documents, free food announcements:
               they all live tidily together in Team. With your team and
@@ -58,22 +58,22 @@ export default function Home() {
               is as easy as collaborating in person.
             </span>
           </div>
-          <div class=" col-span-2 col-start-3 row-start-4">
+          <div className=" col-span-2 col-start-3 row-start-4">
             <span>Learn More</span>
           </div>
-          <div class="row-span-full row-start-1 col-end-13 col-start-7 ">
-            <Image src="/Meeting-1.png" width={716} height={672} />
+          <div className="row-span-full row-start-1  col-end-13 col-start-7 ">
+            <Image src="/Meeting-1.png" width={1030} height={644} />
           </div>
         </div>
 
-        <div class="grid grid-rows-5 grid-cols-12 grid-flow-col gap-4 p-36">
-          <div class="row-span-full row-start-1 col-start-2 col-end-7  ">
-            <Image src="/simpletask-image.png" width={1030} height={644} />
+        <div className="grid grid-rows-5 grid-cols-12 grid-flow-col gap-4 p-36">
+          <div className="row-span-full row-start-1 col-start-2 col-end-7  ">
+            <Image src="/simpletask-image.png" width={564} height={670} />
           </div>
-          <div class="col-span-4 col-start-8 row-start-2">
+          <div className="col-span-4 col-start-8 row-start-2">
             <span className=" font-bold text-5xl">Your hub for teamwork </span>
           </div>
-          <div class=" col-span-4 col-start-8 row-start-3">
+          <div className=" col-span-4 col-start-8 row-start-3">
             <span>
               Project discussions, important documents, free food announcements:
               they all live tidily together in Team. With your team and
@@ -81,16 +81,16 @@ export default function Home() {
               is as easy as collaborating in person.
             </span>
           </div>
-          <div class=" col-span-2 col-start-8 row-start-4">
+          <div className=" col-span-2 col-start-8 row-start-4">
             <span>Learn More</span>
           </div>
         </div>
 
-        <div class="grid grid-rows-5 grid-cols-12 grid-flow-col gap-4 pb-36 ">
-          <div class="col-span-4 col-start-3 row-start-2">
+        <div className="grid grid-rows-5 grid-cols-12 grid-flow-col gap-4 pb-36 ">
+          <div className="col-span-4 col-start-3 row-start-2">
             <span className=" font-bold text-5xl">Your hub for teamwork </span>
           </div>
-          <div class=" col-span-4 col-start-3 row-start-3">
+          <div className=" col-span-4 col-start-3 row-start-3">
             <span>
               Project discussions, important documents, free food announcements:
               they all live tidily import Footer from './../components/Footer';
@@ -99,10 +99,10 @@ export default function Home() {
               in person.
             </span>
           </div>
-          <div class=" col-span-2 col-start-3 row-start-4">
+          <div className=" col-span-2 col-start-3 row-start-4">
             <span>Learn More</span>
           </div>
-          <div class="row-span-full row-start-1 col-end-12 col-start-7 ">
+          <div className="row-span-full row-start-1 col-end-12 col-start-7 ">
             <Image src="/scheduling-image.png" width={472} height={544} />
           </div>
         </div>
